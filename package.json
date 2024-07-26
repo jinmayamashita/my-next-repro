@@ -1,0 +1,26 @@
+{
+  "name": "my-next-repro",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@my/pkg-a": "github:jinmayamashita/re-pkg#main",
+    "@my/pkg-cxxxyyyyzzzzaaaabbbbccccddddeeex": "github:jinmayamashita/re-pk#main",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@9.6.0"
+}
